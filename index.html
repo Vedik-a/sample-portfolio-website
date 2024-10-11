@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p class="subtitle">Web Developer | Software Engineer</p>
+            <img src="your-image.jpg" alt="Your Image" class="profile-img">
+        </header>
+
+        <section class="card" id="education">
+            <h2 class="clickable">Education</h2>
+            <ul>
+                <li>Bachelor's in Computer Science - XYZ University (2018-2022)</li>
+            </ul>
+        </section>
+
+        <section class="card" id="work-experience">
+            <h2 class="clickable">Work Experience</h2>
+            <ul>
+                <li>Intern - ABC Company (2022-2023)</li>
+                <li>Junior Developer - DEF Company (2023-Present)</li>
+            </ul>
+        </section>
+
+        <section class="card" id="skills">
+            <h2 class="clickable">Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section class="card" id="certifications">
+            <h2 class="clickable">Certifications</h2>
+            <ul>
+                <li>Certified JavaScript Developer</li>
+                <li>Web Development Bootcamp</li>
+            </ul>
+        </section>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
